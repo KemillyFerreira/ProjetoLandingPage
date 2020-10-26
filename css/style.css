@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime:wght@700&family=Open+Sans&display=swap');
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+.topo{
+  width: 100%; /*define largura*/
+  height: 60px; /*define a altura*/
+  background-color: #f9003d; /*altera a cor de fundo*/;
+}
+
+.topo nav{
+  width: 1200px;
+  height: 60px;
+  /*backgroud-color: #000; */
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.topo nav a{
+  color: white; /*altera a cor da fonte*/
+  text-decoration: none; /*remove o underline*/
+  text-transform: uppercase;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 20px;
+  padding: 15px 20px;
+}
+.topo nav a:hover{
+  background-color: black;
+  text-decoration: underline;
+}
+.topo nav ul{
+  width: 600px;
+  height: 60px;
+  /*backgroud-clor: lime; */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.banner{
+  width: 100%;
+  height: 575PX;
+  background-image: url(../images/imagem-fundo-banner.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.content{
+  width: 1000px;
+  height: 100%;
+  margin: auto;
+}
+.alinhamento-inferior{
+  display: flex;
+  align-items: flex-end;
+}
+.banner_text{
+  width: 570px;
+  height: 500px;
+}
+.banner_text h1{
+  font-size: 75px;
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+.banner_text p{
+  font-size: 53px;
+  color: #f9003d;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-family: 'Courir Prime', monospace;
+}
+
+.banner_text span{
+  margin-left: 10px;
+}
+.line{
+  width: 85%;
+  border: solid 1px; color: orange;
+}
+
+/*Sobre*/
+
+.bk_sobre{
+  width: 100%;
+  height: 720px;
+  background-color: #080324;
+}
+.sobre{
+ width: 1000px;
+ height: 100%;
+ margin: 0 auto;
+}
+.sobre h2{
+  font-size: 54px;
+  color: #f9003d;
+  font-family:'Bebas Neue', cursive;
+  padding-top:  65px;
+  padding-bottom: 65px;
+}
+.conteudo_sobre img{
+  width: 450px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.conteudo_sobre{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.texto_sobre{
+  width: 450px;
+
+}
+.texto_sobre h3{
+  font-family:'Bebas Neue', cursive;
+  font-size: 40px;
+  color: #ffaf00;
+  line-height: 60px;
+  margin-top: -15px;
+}
+.tag{
+  font-family: 'Courir Prime', monospace;
+  font-size: 24px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.texto_sobre p{
+  font-size: 18px;
+  font-family:'Open Sans', sans-serif;
+  color: #fff;
+  text-align: justify;
+}
+.bk_info{
+  width: 100%;
+  height: 200px;
+  background-image: url(../images/imagem-fundo-info.jpg);
+  background-size: cover;
+}
+.info{
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  font-family: 'Courir Prime', monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.info_card h3{
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  line-height: 50px;
+}
+.info_card p{
+  width: 270px;
+  font-size: 28px;
+  color: #a259f7;
+  border: solid 1px #a259f7;
+  text-align: center;
+  padding: 1em 0;
+}
+.endereco{
+  width: 100%;
+  height: 600px;
+  background-image: url("../images/imagem-fundo-ranking.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.endereco h2{
+  font-size: 64px;
+  font-family:'Bebas Neue', cursive;
+  color: #ffaf00;
+}
+.text-endereco{
+  width: 900px;
+  height: 220px;
+  background-color: #010010;
+  border: solid #340b65;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.text-endereco p{
+  color: #a259f7;
+  font-size: 24px;
+  margin-left: 100px;
+}
+.alinhando-centro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-endereco img{
+  position: absolute;
+  top: -60px;
+  left: 550px;
+}
+.rodape{
+  width: 100%;
+  height: 80px;
+  background-color: #f9003d;
+  font-family:'Open Sans', sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.zap{
+  width: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
